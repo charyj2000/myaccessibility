@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyAccessibility</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="accessibility_service_description">test</string>
+</resources>
