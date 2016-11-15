@@ -2,7 +2,6 @@ package com.example.lixiaoqing.myaccessibility.bean;
 
 
 import android.graphics.Rect;
-import android.view.accessibility.AccessibilityNodeInfo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +27,7 @@ public class NoteInfo {
     private boolean enabled;
     private boolean password;
     private boolean scrollable;
-    private List<AccessibilityNodeInfo.AccessibilityAction> actions;
+//    private List<AccessibilityNodeInfo.AccessibilityAction> actions;
     private List<NoteInfo> children;
 
     public Rect getRectInScreen() {
@@ -175,13 +174,13 @@ public class NoteInfo {
         this.scrollable = scrollable;
     }
 
-    public List<AccessibilityNodeInfo.AccessibilityAction> getActions() {
-        return actions;
-    }
-
-    public void setActions(List<AccessibilityNodeInfo.AccessibilityAction> actions) {
-        this.actions = actions;
-    }
+//    public List<AccessibilityNodeInfo.AccessibilityAction> getActions() {
+//        return actions;
+//    }
+//
+//    public void setActions(List<AccessibilityNodeInfo.AccessibilityAction> actions) {
+//        this.actions = actions;
+//    }
 
     public List<NoteInfo> getChildren() {
         return children;
