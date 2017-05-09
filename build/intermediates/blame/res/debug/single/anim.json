@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/lixiaoqing/.android/build-cache/4438fa3b83c9be18e77e4a46cadb9195ace3143e/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/lixiaoqing/.android/build-cache/4438fa3b83c9be18e77e4a46cadb9195ace3143e/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/lixiaoqing/.android/build-cache/4438fa3b83c9be18e77e4a46cadb9195ace3143e/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/lixiaoqing/.android/build-cache/4438fa3b83c9be18e77e4a46cadb9195ace3143e/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/lixiaoqing/.android/build-cache/4438fa3b83c9be18e77e4a46cadb9195ace3143e/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/lixiaoqing/.android/build-cache/4438fa3b83c9be18e77e4a46cadb9195ace3143e/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/lixiaoqing/.android/build-cache/4438fa3b83c9be18e77e4a46cadb9195ace3143e/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/lixiaoqing/.android/build-cache/4438fa3b83c9be18e77e4a46cadb9195ace3143e/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/lixiaoqing/.android/build-cache/4438fa3b83c9be18e77e4a46cadb9195ace3143e/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/lixiaoqing/.android/build-cache/4438fa3b83c9be18e77e4a46cadb9195ace3143e/output/res/anim/abc_popup_exit.xml"
+    }
+]

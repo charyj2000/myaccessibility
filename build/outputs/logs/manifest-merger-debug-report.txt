@@ -1,0 +1,171 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:2:1-68:12
+	package
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:3:5-53
+		INJECTED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml
+		INJECTED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml
+		INJECTED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml
+		INJECTED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml
+uses-permission#android.permission.BIND_ACCESSIBILITY_SERVICE
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:5:5-85
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:5:22-82
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:6:22-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.INTERNET
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:12:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:13:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:14:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:15:22-72
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:18:5-87
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:18:22-85
+application
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:20:5-66:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha9] /Users/lixiaoqing/.android/build-cache/c46845550bd5caf1528d2e226311ad422d4b27b4/output/AndroidManifest.xml:9:5-20
+MERGED from [pub.devrel:easypermissions:0.1.9] /Users/lixiaoqing/.android/build-cache/9eb7773f69fd5fe9d47e459905cfceb09da94261/output/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/lixiaoqing/.android/build-cache/4438fa3b83c9be18e77e4a46cadb9195ace3143e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.0] /Users/lixiaoqing/.android/build-cache/d44e4f4f2ba34e0eb8e4edb2601c7d7d72638f8f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/lixiaoqing/.android/build-cache/70a5d3d8c39670bf51e691c5380d77797476a923/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/lixiaoqing/.android/build-cache/4fcb573d4395e47edbf96b883cd65c5240239824/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/lixiaoqing/.android/build-cache/27c551a6884ca98b33606120a5641cbe975ca33d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/lixiaoqing/.android/build-cache/78649d6def072ddf2a0dfb9c1cc3639b63f69e79/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/lixiaoqing/.android/build-cache/52b3294fbc90d7e1044c4adb8a8fb7ceb13a90bd/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/lixiaoqing/.android/build-cache/a41ad55b1100454b801d5254a701f097bbbc5e2c/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.0] /Users/lixiaoqing/.android/build-cache/3096c7d396d5cb54951b0ae4f6895f0003b7bbab/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:23:9-41
+	android:allowBackup
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:21:9-36
+	android:icon
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:22:9-43
+	android:theme
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:25:9-40
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:24:9-38
+activity#com.example.lixiaoqing.myaccessibility.MainActivity
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:26:9-34:20
+	android:label
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:28:13-45
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:27:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:32:27-74
+service#com.example.lixiaoqing.myaccessibility.MyService
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:36:9-48:19
+	android:enabled
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:40:13-79
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:37:13-38
+intent-filter#android.accessibilityservice.AccessibilityService
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:41:13-43:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:42:17-92
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:42:25-89
+meta-data#android.accessibilityservice
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:45:13-47:64
+	android:resource
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:47:17-61
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:46:17-60
+service#com.example.lixiaoqing.myaccessibility.ControllerService
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:49:9-52:47
+	android:enabled
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:51:13-35
+	android:exported
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:50:13-46
+receiver#com.example.lixiaoqing.myaccessibility.DownLoadBroadcastReceiver
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:54:9-64:20
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:56:13-54
+intent-filter#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:58:13-62:29
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:60:17-82
+	android:name
+		ADDED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml:60:25-79
+uses-sdk
+INJECTED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha9] /Users/lixiaoqing/.android/build-cache/c46845550bd5caf1528d2e226311ad422d4b27b4/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:2.1.9] /Users/lixiaoqing/.android/build-cache/c4b87b444ca02b85b1fdab1cb1070250b40f4429/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.0] /Users/lixiaoqing/.android/build-cache/0c25615677183f7f290df5fd5e51e7bc33306ac9/output/AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:0.1.9] /Users/lixiaoqing/.android/build-cache/9eb7773f69fd5fe9d47e459905cfceb09da94261/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/lixiaoqing/.android/build-cache/4438fa3b83c9be18e77e4a46cadb9195ace3143e/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.0] /Users/lixiaoqing/.android/build-cache/d44e4f4f2ba34e0eb8e4edb2601c7d7d72638f8f/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/lixiaoqing/.android/build-cache/70a5d3d8c39670bf51e691c5380d77797476a923/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/lixiaoqing/.android/build-cache/4fcb573d4395e47edbf96b883cd65c5240239824/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/lixiaoqing/.android/build-cache/27c551a6884ca98b33606120a5641cbe975ca33d/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/lixiaoqing/.android/build-cache/78649d6def072ddf2a0dfb9c1cc3639b63f69e79/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/lixiaoqing/.android/build-cache/52b3294fbc90d7e1044c4adb8a8fb7ceb13a90bd/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/lixiaoqing/.android/build-cache/a41ad55b1100454b801d5254a701f097bbbc5e2c/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.0] /Users/lixiaoqing/.android/build-cache/3096c7d396d5cb54951b0ae4f6895f0003b7bbab/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/lixiaoqing/.android/build-cache/4438fa3b83c9be18e77e4a46cadb9195ace3143e/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml
+		INJECTED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml
+		INJECTED from /Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/lixiaoqing/.android/build-cache/4438fa3b83c9be18e77e4a46cadb9195ace3143e/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.0] /Users/lixiaoqing/.android/build-cache/d44e4f4f2ba34e0eb8e4edb2601c7d7d72638f8f/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/lixiaoqing/.android/build-cache/70a5d3d8c39670bf51e691c5380d77797476a923/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/lixiaoqing/.android/build-cache/4fcb573d4395e47edbf96b883cd65c5240239824/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/lixiaoqing/.android/build-cache/27c551a6884ca98b33606120a5641cbe975ca33d/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/lixiaoqing/.android/build-cache/78649d6def072ddf2a0dfb9c1cc3639b63f69e79/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/lixiaoqing/.android/build-cache/52b3294fbc90d7e1044c4adb8a8fb7ceb13a90bd/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/lixiaoqing/.android/build-cache/a41ad55b1100454b801d5254a701f097bbbc5e2c/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.0] /Users/lixiaoqing/.android/build-cache/3096c7d396d5cb54951b0ae4f6895f0003b7bbab/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/lixiaoqing/.android/build-cache/4438fa3b83c9be18e77e4a46cadb9195ace3143e/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.0] /Users/lixiaoqing/.android/build-cache/4438fa3b83c9be18e77e4a46cadb9195ace3143e/output/AndroidManifest.xml:26:9-47

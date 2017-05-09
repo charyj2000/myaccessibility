@@ -36,6 +36,9 @@ public class EventInfo {
 
     private NoteInfo base;
     private  NoteInfo source;
+    private String imei;
+    private String ip;
+    private String androidID;
 
     public int getEventType() {
         return eventType;
@@ -251,5 +254,29 @@ public class EventInfo {
 
     public void setSource(NoteInfo source) {
         this.source = source;
+    }
+
+    public String getImei() {
+        return imei;
+    }
+
+    public void setImei(String imei) {
+        this.imei = imei;
+    }
+
+    public String getIp() {
+        return ip;
+    }
+
+    public void setIp(String ip) {
+        this.ip = ip;
+    }
+
+    public String getAndroidID() {
+        return androidID;
+    }
+
+    public void setAndroidID(String androidID) {
+        this.androidID = androidID;
     }
 }

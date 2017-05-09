@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/lixiaoqing/AndroidStudioProjects/IpinyouToos/myaccessibility/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "/Users/lixiaoqing/.android/build-cache/4438fa3b83c9be18e77e4a46cadb9195ace3143e/output/res/values-v18/values-v18.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 99
+                    }
+                }
+            }
+        ]
+    }
+]
