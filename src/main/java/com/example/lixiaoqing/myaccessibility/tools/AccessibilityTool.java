@@ -443,6 +443,7 @@ public class AccessibilityTool {
         traverseNode(event.getSource());
 
         if ("com.android.packageinstaller".equals(event.getPackageName())
+                ||"com.google.android.packageinstaller".equals(event.getPackageName())
                 || "com.miui.packageinstaller".equals(event.getPackageName())
                 || "com.lenovo.safecenter".equals(event.getPackageName())
                 || "com.sec.android.app.capabilitymanager".equals(event.getPackageName())) {

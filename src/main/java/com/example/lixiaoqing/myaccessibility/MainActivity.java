@@ -68,7 +68,7 @@ public class MainActivity extends Activity implements EasyPermissions.Permission
 
 
         SharedPreferences sharedPreferences = this.getSharedPreferences(this.getPackageName(), Context.MODE_APPEND);
-        serverIP.setText(sharedPreferences.getString(Properties.SHAREDPREFERENCES_NAME_SERVER_IP,""));
+        serverIP.setText(sharedPreferences.getString(Properties.SHAREDPREFERENCES_NAME_SERVER_IP,"117.121.97.28:8091"));
     }
 
     public void openSet(View view){

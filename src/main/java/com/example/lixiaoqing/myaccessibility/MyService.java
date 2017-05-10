@@ -284,6 +284,8 @@ public class MyService extends AccessibilityService {
         }
 
 
+
+
         switch (INVOKE_TYPE) {
             case TYPE_KILL_APP:
                 AccessibilityTool.processKillApplication(event,  getRootInActiveWindow());
